@@ -52,7 +52,7 @@ CI builds multi-arch (`linux/amd64,linux/arm64`) via GitHub Actions on every pus
 
 Local build:
 ```sh
-docker buildx build --builder cloud-bryanlabs-builder --platform linux/amd64 -t ghcr.io/bryanlabs/infra-toolkit:dev .
+docker buildx build --builder worker1 --platform linux/amd64 -t ghcr.io/bryanlabs/infra-toolkit:dev .
 ```
 
 ## Gotchas
